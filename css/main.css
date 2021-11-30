@@ -140,3 +140,67 @@ input[type=submit]:hover {
   background-color: #85e282;
   padding: 20px;
 }
+.left{
+  background-color: #fbb03b;
+  width: 200px;
+  height: 100%;
+  float: left;
+}
+
+.box-1{
+  position: relative;
+}
+
+.heading{
+  background-color:#4d4d4d;
+  padding: 10px;
+  color: #fbb03b;
+  text-align: left;
+  padding-right: 20px;
+  margin-left: 15px;
+}
+.heading::after{
+  content: '';
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  background-color: #5a5a5a;
+  right: 191px;
+  top:26px;
+  transform: rotate(56 deg);
+  z-index:-1;
+}
+.p1{
+  padding: 9px 10px;
+  font-size: 11px;
+}
+.icons1{
+  font-size: 16px!important;
+  padding-right: 10px!important;
+  vertical-align: sub;
+}
+.skill .container{
+  width: 90%;
+  background-color: #4d4d4d;
+  color:#fbb03b ;
+  margin: 0px 10px;
+}
+.skill{
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+}
+.html{
+  width: 80%;
+  background-color: white;
+}
+.css{
+  width: 70%;
+  background-color: white;
+}
+
+
+
+
+
